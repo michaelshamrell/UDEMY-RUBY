@@ -31,3 +31,6 @@ The .superclass Method on Classes
 - A class that inherits from the superclass is called the subclass
 - every class in ruby (except BasicObject at the top of the hierarchy) has at least one superclass
 
+The .ancestors Method on Classes
+- a superclass is the class that a current class inherits from
+- the .ancestors method can also be called on a class. It eturns an array o all superclasses that the class inherits from.
