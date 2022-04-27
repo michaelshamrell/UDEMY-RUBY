@@ -34,3 +34,24 @@ The .superclass Method on Classes
 The .ancestors Method on Classes
 - a superclass is the class that a current class inherits from
 - the .ancestors method can also be called on a class. It eturns an array o all superclasses that the class inherits from.
+
+What is an instance variable?
+- Instance variables are variables that belong to a specfic object.
+- instance variables define the object's properties or attributes
+- the isntance variables make p the object's state
+- each object can have a custom state
+- the state of an object can change over time
+
+Define an Instance Variablle
+- Instance variables begin with the @ symbol
+- the @ symbol is called a sigil, a special character that denotes the variables scope
+- without the @ sigil, the variable would e interpreted as a local variable to the method it is used in.
+
+@name = "boris"
+@age = 25
+
+The initialize Method
+- the initialize method is called immediately when an obect is isntantiated from a class with the new mmethod 
+- the initialize method offers an opportunity to assign values to instance variables in order to define the objects state.
+- If the initalize method is not defined in the class, each object is initialized with no state (lik ethe Gadget objects in the previous lesson)
+- The assignment of values to instance variables does not mean the values have to stay constant. The objects state cna be altered later. (cd to Classes/gadget.rb to see further)
