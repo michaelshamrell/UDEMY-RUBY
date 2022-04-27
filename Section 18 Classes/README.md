@@ -18,3 +18,16 @@ Classes and Objects:
 - an object is an isntance of the class. It is created from the class
 - isntantiation is the process of creating an object from a class
 - a class is called an abstract type becuase it hides the complexity of interacting with te data, much like a method abstracts the complexity of a process
+
+
+The .class Method on objects
+- objects receive their structure or design from classes
+- the .class method returns the class the object was constructed from
+- the object's class is itself another object. A class is another type of object
+
+The .superclass Method on Classes
+- a superclass is the class that a current class ingerits from. Ingertiance follows an "is-a" structure
+- The .superclass method is called on a class. It returns the parent class that the current class inherits from.
+- A class that inherits from the superclass is called the subclass
+- every class in ruby (except BasicObject at the top of the hierarchy) has at least one superclass
+
